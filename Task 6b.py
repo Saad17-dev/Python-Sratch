@@ -1,9 +1,9 @@
 #Q1)
 def greet(name,age):
-    print("Hello " + name + "! You are " + str(age) + " years old.")
+    print("Hello " + name + "! You are " + int(age) + " years old.")
 #Q2)
-def intro(name,cou="Pakistan"):
-    print(f"My Name is {name} and i am from {cou}.")
+def intro(name,country="Pakistan"):
+    print(f"My Name is {name} and i am from {country}.")
 #Q3)
 def student_info(*args,**kwargs):
     print(args)
@@ -62,3 +62,6 @@ def main():
     order("Pizza",2,"Extra Cheese","Cold Drink")
 if __name__ == "__main__":
     main()
+
+
+    
